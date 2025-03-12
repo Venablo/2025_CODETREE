@@ -2,10 +2,11 @@ import java.util.Scanner;
 public class Main {
     public static void cal(int n) {
         int a=0;
+        int b=n;
         a += n % 10;
         n /= 10;
         a = a+n;
-        if(n%2==0){
+        if(b%2==0){
             if(a==5){
                 System.out.println("Yes");
             }
